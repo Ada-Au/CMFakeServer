@@ -5,7 +5,7 @@
     { "id": 3, "title": "Post 3" }
   ],
   "members": [
-    { "id": 1, "name": "ada", "address": "abc", "email": "abc@email.com", "profile": "test1" },
+    { "id": 1, "name": "ada", "address": "abc", "email": "abc@email.com", "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400" },
     { "id": 2, "name": "potato", "address": "idk", "email": "def@email.com", "profile": "test2" }
   ]
 }
