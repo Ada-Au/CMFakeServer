@@ -3,11 +3,6 @@
     { "id": 1, "name": "Post 1", "description": "i dont know"},
     { "id": 2, "name": "Post 2", "description": "idk"},
     { "id": 3, "name": "Post 3", "description": "idunno"}
-  ],{
-  "permission": [
-    { "id": 1, "name": "Post 1", "description": "i dont know"},
-    { "id": 2, "name": "Post 2", "description": "idk"},
-    { "id": 3, "name": "Post 3", "description": "idunno"}
   ],
   "members": [
     { "id": 1, "firstName": "ada", "lastName": "hmm", "address": "abc", "email": "abc@email.com", "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400", "prefix": "a", "gender": "FEMALE", "birthday": "20/20/2020", "about": "i love eating potatos.", "password": "noPassword", "contact": 12345678, "role": "human", "associationId": 123},
