@@ -4,33 +4,4 @@
     { "id": 2, "name": "Post 2", "description": "idk"},
     { "id": 3, "name": "Post 3", "description": "idunno"}
   ],
-  "members": [
-    { "id": 1, "firstName": "ada", "lastName": "hmm", "address": "abc", "email": "abc@email.com", "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400", "prefix": "a", "gender": "FEMALE", "birthday": "20/20/2020", "about": "i love eating potatos.", "password": "noPassword", "contact": 12345678, "role": "human", "associationId": 123},
-    { "id": 2, "firstName": "potato", "lastress": "sweet", "email": "def@email.com", "profile": "testtitile", "prefix": "b", "gender": "OTHER", "birthday": "1/1/0000", "about": "pls don't eat me.", "password": "yesPassword", "contact": 87654321, "role": "potato", "associationId": 321}
-  ],
-  "memberSettings": [
-    {"id": 1, "associationId": 1, "order": "memberOrder??"},
-    {"id": 2, "associationId": 2, "order": "memberOrder???"},
-    {"id": 3, "associationId": 2, "order": "memberOrder????"}
-  ],
-  "memberBelongedGroup": [
-    {"id": 1, "memberId": 1, "memberGroupId": 1},
-    {"id": 2, "memberId": 2, "memberGroupId": 1},
-    {"id": 3, "memberId": 2, "memberGroupId": 2}
-  ],
-  "groupPermission": [
-    {"id": 1, "memberGroupId": 1, "permissionId": 1},
-    {"id": 2, "memberGroupId": 2, "permissionId": 1},
-    {"id": 3, "memberGroupId": 2, "permissionId": 2}
-  ],
-  "Association": [
-    {"id": 1},
-    {"id": 2},
-    {"id": 3}
-  ],
-  "memberGroup": [
-    {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1},
-    {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2},
-    {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2}
-  ],
 }
