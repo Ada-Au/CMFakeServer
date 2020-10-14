@@ -13,24 +13,4 @@
     {"id": 2, "associationId": 2, "order": "memberOrder???" },
     {"id": 3, "associationId": 2, "order": "memberOrder????" }
   ],
-  "memberBelongedGroup": [
-    {"id": 1, "memberId": 1, "memberGroupId": 1 },
-    {"id": 2, "memberId": 2, "memberGroupId": 1 },
-    {"id": 3, "memberId": 2, "memberGroupId": 2 }
-  ],
-  "groupPermission": [
-    {"id": 1, "memberGroupId": 1, "permissionId": 1 },
-    {"id": 2, "memberGroupId": 2, "permissionId": 1 },
-    {"id": 3, "memberGroupId": 2, "permissionId": 2 }
-  ],
-  "Association": [
-    {"id": 1 },
-    {"id": 2 },
-    {"id": 3 }
-  ],
-  "memberGroup": [
-    {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1 },
-    {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2 },
-    {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2 }
-  ],
 }
