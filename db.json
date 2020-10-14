@@ -12,5 +12,10 @@
     {"id": 1, "associationId": 1, "order": "memberOrder??"},
     {"id": 2, "associationId": 2, "order": "memberOrder???"},
     {"id": 3, "associationId": 2, "order": "memberOrder????"}
+  ],
+  "memberBelongedGroup": [
+    {"id": 1, "memberId": 1, "memberGroupId": 1},
+    {"id": 2, "memberId": 2, "memberGroupId": 1},
+    {"id": 3, "memberId": 2, "memberGroupId": 2}
   ]
 }
