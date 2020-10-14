@@ -22,15 +22,5 @@
     {"id": 1, "memberGroupId": 1, "permissionId": 1},
     {"id": 2, "memberGroupId": 2, "permissionId": 1},
     {"id": 3, "memberGroupId": 2, "permissionId": 2}
-  ],
-  "Association": [
-    {"id": 1},
-    {"id": 2},
-    {"id": 3}
-  ],
-  "memberGroup": [
-    {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1},
-    {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2},
-    {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2}
   ]
 }
