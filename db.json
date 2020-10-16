@@ -15,14 +15,15 @@
   ],
   "memberGroup": [
     {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1, 
-    "member": [
+    "members": [
       {
         "id": 1,
         "firstName": "ada",
-        "lastName": "hmm"}]
+        "lastName": "hmm"
+      }]
     },
     {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2, 
-   "member": [
+   "members": [
      {
         "id": 1,
         "firstName": "ada",
@@ -30,16 +31,16 @@
      {
         "id": 2,
         "firstName": "potato",
-        "lastName": "sweet"}
-             ]
+        "lastName": "sweet"
+     }]
     },
     {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2,  
-  "member": [
+  "members": [
     {
         "id": 2,
         "firstName": "potato",
-        "lastName": "sweet"}
-             ]
+        "lastName": "sweet"
+    }]
     }
   ]
 }
