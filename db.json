@@ -14,7 +14,7 @@
     {"id": 3, "associationId": 2, "order": "memberOrder????"}
   ],
   "memberGroup": [
-    {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1, 
+    {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1, "NumberOfMember": 1,
     "members": [
       {
         "id": 1,
@@ -22,7 +22,7 @@
         "lastName": "hmm"
       }]
     },
-    {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2, 
+    {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2, "NumberOfMember": 2,
    "members": [
      {
         "id": 1,
@@ -34,7 +34,7 @@
         "lastName": "sweet"
      }]
     },
-    {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2,  
+    {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2,  "NumberOfMember": 1,
   "members": [
     {
         "id": 2,
