@@ -22,15 +22,15 @@
   ]},
     {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2, "numberOfMember": 3,
   "memberBelongedGroup": [
-    {"id": 1, "memberId": 1, "memberGroupId": 1},
-    {"id": 2, "memberId": 2, "memberGroupId": 1},
-    {"id": 3, "memberId": 2, "memberGroupId": 2}
+    {"id": 4, "memberId": 1, "memberGroupId": 1},
+    {"id": 5, "memberId": 2, "memberGroupId": 1},
+    {"id": 6, "memberId": 2, "memberGroupId": 2}
   ]},
     {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2, "numberOfMember": 2, 
   "memberBelongedGroup": [
-    {"id": 1, "memberId": 1, "memberGroupId": 1},
-    {"id": 2, "memberId": 2, "memberGroupId": 1},
-    {"id": 3, "memberId": 2, "memberGroupId": 2}
+    {"id": 7, "memberId": 1, "memberGroupId": 1},
+    {"id": 8, "memberId": 2, "memberGroupId": 1},
+    {"id": 9, "memberId": 2, "memberGroupId": 2}
   ]}
   ] 
 }
