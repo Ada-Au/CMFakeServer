@@ -32,5 +32,10 @@
     {"id": 11, "memberId": 2, "memberGroupId": 2},
     {"id": 12, "memberId": 3, "memberGroupId": 3}
   ]}
-  ] 
+  ],
+  "memberBelongedGroup": [
+    {"id": 10, "memberId": 1, "memberGroupId": 1},
+    {"id": 11, "memberId": 2, "memberGroupId": 2},
+    {"id": 12, "memberId": 3, "memberGroupId": 3}
+  ]}
 }
