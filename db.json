@@ -6,7 +6,7 @@
   ],
   "members": [
     { "id": 1, "firstName": "ada", "lastName": "hmm", "address": "abc", "email": "abc@email.com", "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400", "prefix": "a", "gender": "FEMALE", "birthday": "20/20/2020", "about": "i love eating potatos.", "password": "noPassword", "contact": 12345678, "role": "USER", "associationId": 123},
-    { "id": 2, "firstName": "potato", "lastress": "sweet", "email": "def@email.com", "profile": "testtitile", "prefix": "b", "gender": "OTHER", "birthday": "1/1/0000", "about": "pls don't eat me.", "password": "yesPassword", "contact": 87654321, "role": "ADMIN", "associationId": 321}
+    { "id": 2, "firstName": "potato", "lastName": "sweet", "email": "def@email.com", "profile": "testtitile", "prefix": "b", "gender": "OTHER", "birthday": "1/1/0000", "about": "pls don't eat me.", "password": "yesPassword", "contact": 87654321, "role": "ADMIN", "associationId": 321}
   ],
   "memberSettings": [
     {"id": 1, "associationId": 1, "order": "memberOrder??"},
@@ -15,22 +15,29 @@
   ],
   "memberGroup": [
     {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1, "numberOfMember": 0,
-  "memberBelongedGroup": [
-    {"id": 4, "memberId": 1, "memberGroupId": 1},
-    {"id": 5, "memberId": 2, "memberGroupId": 2},
-    {"id": 6, "memberId": 3, "memberGroupId": 3}
-  ]},
+    "member": [{
+        id: 1,
+        firstName: "ada",
+        lastName: "hmm"}]
+    },
     {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2, "numberOfMember": 3,
-  "memberBelongedGroup": [
-    {"id": 7, "memberId": 4, "memberGroupId": 1},
-    {"id": 8, "memberId": 5, "memberGroupId": 2},
-    {"id": 9, "memberId": 6, "memberGroupId": 3}
-  ]},
+   "member": [{
+        id: 1,
+        firstName: "ada",
+        lastName: "hmm"},
+              {
+        id: 2,
+        firstName: "potato",
+        lastName: "sweet"},
+             ]
+    },
     {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2, "numberOfMember": 2, 
-  "memberBelongedGroup": [
-    {"id": 10, "memberId": 1, "memberGroupId": 1},
-    {"id": 11, "memberId": 2, "memberGroupId": 2},
-    {"id": 12, "memberId": 3, "memberGroupId": 3}
-  ]}
+  "member": [
+              {
+        id: 2,
+        firstName: "potato",
+        lastName: "sweet"},
+             ]
+    }
   ]
 }
