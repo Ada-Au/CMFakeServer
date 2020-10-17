@@ -4,26 +4,26 @@
     { "id": 2, "name": "Post 2", "description": "idk"},
     { "id": 3, "name": "Post 3", "description": "idunno"}
   ],
-  "members": [
+  "Member": [
     { "id": 1, "firstName": "ada", "lastName": "hmm", "address": "abc", "email": "abc@email.com", "profile": "https://gitlab.com/uploads/-/system/user/avatar/6114290/avatar.png?width=400", "prefix": "a", "gender": "FEMALE", "birthday": "20/20/2020", "about": "i love eating potatos.", "password": "noPassword", "contact": 12345678, "role": "USER", "associationId": 123},
     { "id": 2, "firstName": "potato", "lastName": "sweet", "email": "def@email.com", "profile": "testtitile", "prefix": "b", "gender": "OTHER", "birthday": "1/1/0000", "about": "pls don't eat me.", "password": "yesPassword", "contact": 87654321, "role": "ADMIN", "associationId": 321}
   ],
-  "memberSettings": [
+  "MemberSetting": [
     {"id": 1, "associationId": 1, "order": "memberOrder??"},
     {"id": 2, "associationId": 2, "order": "memberOrder???"},
     {"id": 3, "associationId": 2, "order": "memberOrder????"}
   ],
-  "memberGroup": [
-    {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1, "NumberOfMember": 1,
-    "members": [
+  "MemberGroup": [
+    {"id": 1, "name": "a", "about": "i am a potato", "associationId": 1, 
+    "Member": [
       {
         "id": 1,
         "firstName": "ada",
         "lastName": "hmm"
       }]
     },
-    {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2, "NumberOfMember": 2,
-   "members": [
+    {"id": 2, "name": "b", "about": "i am b potato", "associationId": 2, 
+   "Member": [
      {
         "id": 1,
         "firstName": "ada",
@@ -34,8 +34,8 @@
         "lastName": "sweet"
      }]
     },
-    {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2,  "NumberOfMember": 1,
-  "members": [
+    {"id": 3, "name": "c", "about": "i am c potato", "associationId": 2, 
+  "Member": [
     {
         "id": 2,
         "firstName": "potato",
